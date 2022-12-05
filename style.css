@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #070707;
+}
+
+.text_wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.text_timer {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-right: -20px;
+    align-items: center;
+    font-size: 54px;
+    height: 100px;
+    width: 100%;
+    color: linear-gradient;
+    background: linear-gradient(45deg, DeepPink, DarkOrchid, Crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
